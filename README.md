@@ -1,7 +1,7 @@
 # Description
 The RTDM uart driver for Bealgebone Black. This driver is tested under [kernel from offical repository which already patched with xenomai 3](https://github.com/beagleboard/linux/tree/4.4-xenomai/).
 
-The both of baudrate and data format are non configurable, they 3000000bps and 8N1 respectively.
+Both of the baudrate and the data format are non configurable, they are fixed to be 3000000bps and 8N1 respectively.
 
 The driver inside only enable the uart4 clock, so uart1, uart2, uart3 and uart5 is unsupported yet.
 
