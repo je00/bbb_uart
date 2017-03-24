@@ -3,7 +3,7 @@ The RTDM uart driver for Bealgebone Black. This driver is tested under [kernel f
 
 Both of the baudrate and the data format are non configurable, they are fixed to be 3000000bps and 8N1 respectively.
 
-The driver inside only enable the uart4 clock, so uart1, uart2, uart3 and uart5 is unsupported yet.
+The driver inside only enable the uart4 clock, so uart1, uart2, uart3 and uart5 are unsupported yet.
 
 # Device tree example
 To make the driver recognized by the kernel, you need modify the device tree at kernel compile time.
