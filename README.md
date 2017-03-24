@@ -5,6 +5,8 @@ Both of the baudrate and the data format are non configurable, they are fixed to
 
 The driver inside only enable the uart4 clock, so uart1, uart2, uart3 and uart5 are unsupported yet.
 
+[中文开发笔记](http://note.youdao.com/noteshare?id=d426c8a80f5b420304f37753844522e8)
+
 # Device tree example
 To make the driver recognized by the kernel, you need modify the device tree at kernel compile time.
 `vim arch/arm/boot/dts/am335x-boneblack.dts`
